@@ -1,19 +1,19 @@
 // Avaliar uso de API do IBGE ou importar os dados para cá
-export interface localizacao {
+export interface Localizacao {
     cep: string
     numero: number
     complemento: string
     bairro: string
-    cidade: cidade
+    cidade: Cidade
 }
 
-export interface cidade {
+export interface Cidade {
     id: number
     nome: string
-    estado: estado
+    estado: Estado
 }
 
-export interface estado {
+export interface Estado {
     id: number
     nome: string
 }

@@ -1,23 +1,23 @@
-import { associacao } from "./associacao";
-import { localizacao } from "./localizacao";
-import { midia } from "./midia";
-import { premio } from "./premio";
-import { site } from "./site";
+import { Associacao } from "./associacao";
+import { Localizacao } from "./localizacao";
+import { Midia } from "./midia";
+import { Premio } from "./premio";
+import { Site } from "./site";
 
 
-export interface empresa {
+export interface Empresa {
     id: number
     nome: string
     slug: string
     descricao: string
     email?: string
-    midias?: midia[]
-    links?: site[]
-    localizacao?: localizacao
+    midias?: Midia[]
+    links?: Site[]
+    localizacao?: Localizacao
     ativo: boolean
-    associacoes?: associacao[]
+    associacoes?: Associacao[]
     abertura?: Date
     encerra?: Date
-    premios?: premio[]
+    premios?: Premio[]
     dataAtualizacao: Date
 }

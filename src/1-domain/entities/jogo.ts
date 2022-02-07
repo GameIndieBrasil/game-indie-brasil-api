@@ -1,28 +1,28 @@
 import { statusJogo } from "#domain/enums/statusJogo";
-import { midia } from "./midia";
-import { premio } from "./premio";
+import { Midia } from "./midia";
+import { Premio } from "./premio";
 
-export interface jogo {
+export interface Jogo {
     id: number
     nome: string
     slug: string
     descricao: string
     status: statusJogo
-    midias?: midia[]
+    midias?: Midia[]
     idademin?: number
     lancamento?: lancamentoPlat[]
-    premios?: premio[]
+    premios?: Premio[]
     generos?: genero[]
     dataAtualizacao: Date
 }
 
-export interface lancamentoPlat {
+interface lancamentoPlat {
     id: number
     nome: string
     dataLancamento: Date
 }
 
-export interface genero {
+interface genero {
     id: number
     nome: string
 }

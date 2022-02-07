@@ -1,4 +1,4 @@
-export interface associacao {
+export interface Associacao {
     id: number
     nome: string
     associado: boolean
