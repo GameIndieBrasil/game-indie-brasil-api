@@ -1,5 +1,7 @@
-import { tipoEvento } from "#domain/models/tipoEvento";
-import { localizacao, midia, site } from "./generic";
+import { tipoEvento } from "#domain/enums/tipoEvento";
+import { localizacao } from "./localizacao";
+import { midia } from "./midia";
+import { site } from "./site";
 
 export interface evento {
     id: number
