@@ -1,3 +1,4 @@
+import { TipoEmpresa } from "#domain/enums/tipoEmpresa";
 import { EmpresaAssociacao } from "./junctions/empresaAssociacao";
 import { Localizacao } from "./localizacao";
 import { Midia } from "./midia";
@@ -19,14 +20,5 @@ export interface Empresa {
     encerra?: Date
     premios?: Premio[]
     dataAtualizacao: Date
-}
-
-enum tipoEmpresa {
-    estudioFormalizado,
-    estudioNaoFormalizado,
-    individual,
-    associacao,
-    empresaEventos,
-    outros,
-    desconhecido = 9
+    tipoEmpresa: TipoEmpresa
 }
