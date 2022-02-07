@@ -1,10 +1,10 @@
-import { tipoEvento } from "#domain/enums/tipoEvento";
 import { Localizacao } from "./localizacao";
 import { Midia } from "./midia";
 import { Site } from "./site";
 
 export interface Evento {
     id: number
+    idEmpresaResp: number
     nome: string
     slug: string
     descricao: string
@@ -14,7 +14,6 @@ export interface Evento {
     ativo?: boolean
     abertura?: Date
     encerra?: Date
-    tipo: tipoEvento
     midias?: Midia[]
     edicao: string
     dataAtualizacao: Date

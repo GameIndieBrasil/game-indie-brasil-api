@@ -1,4 +1,4 @@
-export enum tipoRecebedor {
+export enum TipoRecebedor {
     empresa,
     jogo
 }

@@ -7,13 +7,13 @@ export interface Localizacao {
     cidade: Cidade
 }
 
-export interface Cidade {
+interface Cidade {
     id: number
     nome: string
     estado: Estado
 }
 
-export interface Estado {
+interface Estado {
     id: number
     nome: string
 }

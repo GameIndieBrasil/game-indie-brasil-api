@@ -1,9 +1,8 @@
-import { Associacao } from "./associacao";
+import { EmpresaAssociacao } from "./junctions/empresaAssociacao";
 import { Localizacao } from "./localizacao";
 import { Midia } from "./midia";
 import { Premio } from "./premio";
 import { Site } from "./site";
-
 
 export interface Empresa {
     id: number
@@ -15,9 +14,19 @@ export interface Empresa {
     links?: Site[]
     localizacao?: Localizacao
     ativo: boolean
-    associacoes?: Associacao[]
+    associacoes?: EmpresaAssociacao[]
     abertura?: Date
     encerra?: Date
     premios?: Premio[]
     dataAtualizacao: Date
+}
+
+enum tipoEmpresa {
+    estudioFormalizado,
+    estudioNaoFormalizado,
+    individual,
+    associacao,
+    empresaEventos,
+    outros,
+    desconhecido = 9
 }

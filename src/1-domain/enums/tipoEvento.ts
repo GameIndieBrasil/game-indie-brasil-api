@@ -1,4 +1,4 @@
-export enum tipoEvento {
+export enum TipoEvento {
     gamejam,
     festival,
     concurso,
