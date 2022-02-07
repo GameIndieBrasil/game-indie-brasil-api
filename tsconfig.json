@@ -29,6 +29,8 @@
       "#test/*": [
         "test/*"
       ]
-    }
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   }
 }
