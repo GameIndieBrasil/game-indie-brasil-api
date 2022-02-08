@@ -4,7 +4,7 @@ import { Site } from "./site";
 
 export interface Evento {
     id: number
-    idEmpresaResp: number
+    idEmpresaResp: number[]
     nome: string
     slug: string
     descricao: string
