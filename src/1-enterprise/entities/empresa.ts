@@ -13,7 +13,7 @@ export interface Empresa {
     midias?: Midia[]
     localizacao?: Localizacao
     ativo: boolean
-    associacoes?: EmpresaAssociacao[]
+    associacoesId?: number[]
     abertura?: Date
     encerra?: Date
     premios?: Premio[]
