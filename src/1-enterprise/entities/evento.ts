@@ -1,6 +1,5 @@
 import { Localizacao } from "./localizacao";
 import { Midia } from "./midia";
-import { Site } from "./site";
 
 export interface Evento {
     id: number
@@ -9,7 +8,6 @@ export interface Evento {
     slug: string
     descricao: string
     email?: string
-    links?: Site[]
     localizacao?: Localizacao
     ativo?: boolean
     abertura?: Date

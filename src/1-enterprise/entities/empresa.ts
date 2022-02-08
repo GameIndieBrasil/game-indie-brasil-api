@@ -1,9 +1,8 @@
 import { TipoEmpresa } from "#enterprise/enums/tipoEmpresa";
-import { EmpresaAssociacao } from "./junctions/empresaAssociacao";
+import { EmpresaAssociacao } from "./empresaAssociacao";
 import { Localizacao } from "./localizacao";
 import { Midia } from "./midia";
 import { Premio } from "./premio";
-import { Site } from "./site";
 
 export interface Empresa {
     id: number
@@ -12,7 +11,6 @@ export interface Empresa {
     descricao: string
     email?: string
     midias?: Midia[]
-    links?: Site[]
     localizacao?: Localizacao
     ativo: boolean
     associacoes?: EmpresaAssociacao[]
