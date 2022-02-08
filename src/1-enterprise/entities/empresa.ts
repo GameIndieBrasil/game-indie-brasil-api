@@ -1,4 +1,4 @@
-import { TipoEmpresa } from "#domain/enums/tipoEmpresa";
+import { TipoEmpresa } from "#enterprise/enums/tipoEmpresa";
 import { EmpresaAssociacao } from "./junctions/empresaAssociacao";
 import { Localizacao } from "./localizacao";
 import { Midia } from "./midia";

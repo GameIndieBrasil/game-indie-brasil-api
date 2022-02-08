@@ -1,4 +1,4 @@
-import { statusJogo } from "#domain/enums/statusJogo";
+import { statusJogo } from "#enterprise/enums/statusJogo";
 import { Midia } from "./midia";
 import { Premio } from "./premio";
 

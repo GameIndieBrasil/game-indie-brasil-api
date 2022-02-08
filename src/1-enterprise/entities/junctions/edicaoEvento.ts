@@ -1,4 +1,4 @@
-import { TipoEvento } from "#domain/enums/tipoEvento";
+import { TipoEvento } from "src/1-enterprise/enums/tipoEvento";
 
 export interface EdicaoEvento {
     id: number

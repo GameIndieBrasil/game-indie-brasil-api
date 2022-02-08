@@ -1,4 +1,4 @@
-import { TipoRecebedor } from "#domain/enums/tipoRecebedor";
+import { TipoRecebedor } from "#enterprise/enums/tipoRecebedor";
 
 export interface Premio {
     id: number
