@@ -1,0 +1,20 @@
+export enum Platform {
+    appStore = 'Apple App Store',
+    dos = 'DOS',
+    playStore = 'Google Play Store',
+    stadia = 'Google Stadia',
+    macOS = 'macOS',
+    nds = 'Nintendo DS',
+    nswitch = 'Nintendo Switch',
+    nwii = 'Nintendo Wii',
+    ps3 = 'PlayStation 3',
+    ps4 = 'PlayStation 4',
+    ps5 = 'PlayStation 5',
+    psvita = 'PlayStation Vita',
+    web = 'Web',
+    windows = 'Windows',
+    linux = 'Linux',
+    x360 = 'XBox 360',
+    xone = 'XBox One',
+    xseries = 'XBox Series'
+}
