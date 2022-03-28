@@ -5,8 +5,8 @@ import { Prize } from "./prize"
 
 export interface Company {
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     name: string
     slug: string
     description: string
@@ -15,18 +15,18 @@ export interface Company {
     address?: Address
     active: boolean
     associations?: CompanyAssociation[]
-    foundDate?: Date
-    defunctDate?: Date
+    foundDate?: number
+    defunctDate?: number
     prizes?: Prize[]
     companyType: CompanyType
 }
 
 export interface CompanyAssociation {
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     associationCompanyId: string
     active: boolean
-    startDate?: Date
-    endDate?: Date
+    startDate?: number
+    endDate?: number
 }

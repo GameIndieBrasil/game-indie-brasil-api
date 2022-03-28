@@ -6,8 +6,8 @@ import { Prize } from "./prize";
 
 export interface Game {
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     name: string
     slug: string
     description: string
@@ -20,7 +20,7 @@ export interface Game {
 
 interface PlatformRelease {
     platform: Platform
-    releaseDate: Date
+    releaseDate: number
     releaseStatus: GameStatus
     url: string
 }

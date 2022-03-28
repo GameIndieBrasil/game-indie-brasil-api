@@ -4,8 +4,8 @@ import { Media } from "./media";
 
 export interface Event {
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     companyOwnerId: number[]
     name: string
     slug: string
@@ -13,19 +13,19 @@ export interface Event {
     email?: string
     address?: Address
     active?: boolean
-    foundDate?: Date
-    defunctDate?: Date
+    foundDate?: number
+    defunctDate?: number
     medias?: Media[]
     editions?: EventEdition[]
 }
 
 export interface EventEdition {
     id: number
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     editionName: string
-    startDate?: Date
-    endDate?: Date
+    startDate?: number
+    endDate?: number
     eventType: EventType
     companies: string[]
     games: string[]

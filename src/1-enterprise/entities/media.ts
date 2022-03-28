@@ -2,8 +2,8 @@ import { MediaType } from "#enterprise/enums/mediaType";
 
 export interface Media {
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     location: string
     type: MediaType
     description?: string

@@ -2,8 +2,8 @@ import { WinnerType } from "#enterprise/enums/winnerType";
 
 export interface Prize {
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     eventId: string
     name: string
     winnerId: string
