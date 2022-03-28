@@ -1,6 +1,6 @@
-import { EventType } from "#enterprise/enums/eventType";
-import { Address } from "./address";
-import { Media } from "./media";
+import { EventType } from "#enterprise/enums/eventType"
+import { Address } from "./address"
+import { Media } from "./media"
 
 export interface Event {
     id: number

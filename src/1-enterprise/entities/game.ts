@@ -1,8 +1,8 @@
-import { GameStatus } from "#enterprise/enums/gameStatus";
-import { Platform } from "#enterprise/enums/platform";
-import { Genre } from "./genre";
-import { Media } from "./media";
-import { Prize } from "./prize";
+import { GameStatus } from "#enterprise/enums/gameStatus"
+import { Platform } from "#enterprise/enums/platform"
+import { Genre } from "./genre"
+import { Media } from "./media"
+import { Prize } from "./prize"
 
 export interface Game {
     id: number

@@ -1,4 +1,4 @@
-import { WinnerType } from "#enterprise/enums/winnerType";
+import { WinnerType } from "#enterprise/enums/winnerType"
 
 export interface Prize {
     id: number

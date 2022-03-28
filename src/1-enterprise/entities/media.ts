@@ -1,4 +1,4 @@
-import { MediaType } from "#enterprise/enums/mediaType";
+import { MediaType } from "#enterprise/enums/mediaType"
 
 export interface Media {
     id: number
