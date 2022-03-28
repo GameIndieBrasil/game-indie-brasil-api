@@ -8,7 +8,7 @@
     "resolveJsonModule": true,
     "allowJs": false,
     "checkJs": false,
-    "outDir": "./out/",
+    "outDir": "app",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -23,7 +23,7 @@
     "noFallthroughCasesInSwitch": true,
     "removeComments": true,
     "allowSyntheticDefaultImports": true,
-    "noEmit": true,
+    "noEmit": false,
     "baseUrl": ".",
     "paths": {
       "#enterprise/*": [
