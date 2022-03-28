@@ -6,6 +6,6 @@ export interface Prize {
     updatedAt: number
     eventId: number
     name: string
-    winnerId: string
+    winnerId: number
     winnerType: WinnerType
 }
