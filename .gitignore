@@ -1,5 +1,5 @@
-#cfg
-src/cfg/bot.ts
+#output folder
+app
 
 # Logs
 logs
