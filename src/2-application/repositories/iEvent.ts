@@ -1,5 +1,5 @@
 import { Token } from 'typedi/Token'
-import { Event } from '#enterprise/entities/event'
+import { Event, EventEdition } from '#enterprise/entities/event'
 
 export const IEventRepositoryToken = new Token<IEventRepository>()
 
@@ -12,6 +12,11 @@ export interface IEventRepository {
     getEventsByFoundDate(startDate: string, endDate: string): Promise<Event[]>
     getEventsByDefunctDate(startDate: string, endDate: string): Promise<Event[]>
     getActiveEvents(): Promise<Event[]>
+    getEventEditionById(eventEditionId: string): Promise<Event>
+    getEventEditionsByEventId(eventId: string): Promise<EventEdition[]>
+    getEventsByDate(startDate: string, endDate: string): Promise<EventEdition[]>
+    getEventsByCompany(companyId: string): Promise<EventEdition[]>
+    getEventsByGame(gameId: string): Promise<EventEdition[]>
     create(event: Event): Promise<Event>
     update(event: Event): Promise<Event>
 }
