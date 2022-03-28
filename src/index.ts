@@ -1,5 +1,5 @@
-import { Request, Response, NextFunction } from 'express'
-import axios, { AxiosResponse } from 'axios'
-import "reflect-metadata"
+// import { Request, Response, NextFunction } from 'express'
+// import axios, { AxiosResponse } from 'axios'
+// import "reflect-metadata"
 
-
+console.log('sucesso')
