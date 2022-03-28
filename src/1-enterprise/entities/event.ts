@@ -3,9 +3,15 @@ import { Address } from "./address";
 import { Media } from "./media";
 
 export interface Event {
+<<<<<<< HEAD
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
+=======
+    id: number
+    createdAt: number
+    updatedAt: number
+>>>>>>> parent of 429dd0d (Set default ids to string (planning to use uuid))
     companyOwnerId: number[]
     name: string
     slug: string
@@ -13,20 +19,26 @@ export interface Event {
     email?: string
     address?: Address
     active?: boolean
-    foundDate?: Date
-    defunctDate?: Date
+    foundDate?: number
+    defunctDate?: number
     medias?: Media[]
     editions?: EventEdition[]
 }
 
 export interface EventEdition {
     id: number
-    createdAt: Date
-    updatedAt: Date
+<<<<<<< HEAD
+    createdAt: number
+    updatedAt: number
+=======
+    createdAt: number
+    updatedAt: number
+    eventId: number
+>>>>>>> parent of 429dd0d (Set default ids to string (planning to use uuid))
     editionName: string
-    startDate?: Date
-    endDate?: Date
+    startDate?: number
+    endDate?: number
     eventType: EventType
-    companies: string[]
-    games: string[]
+    companies: number[]
+    games: number[]
 }

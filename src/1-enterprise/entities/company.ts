@@ -4,9 +4,15 @@ import { Media } from "./media"
 import { Prize } from "./prize"
 
 export interface Company {
+<<<<<<< HEAD
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
+=======
+    id: number
+    createdAt: number
+    updatedAt: number
+>>>>>>> parent of 429dd0d (Set default ids to string (planning to use uuid))
     name: string
     slug: string
     description: string
@@ -15,18 +21,25 @@ export interface Company {
     address?: Address
     active: boolean
     associations?: CompanyAssociation[]
-    foundDate?: Date
-    defunctDate?: Date
+    foundDate?: number
+    defunctDate?: number
     prizes?: Prize[]
     companyType: CompanyType
 }
 
 export interface CompanyAssociation {
+<<<<<<< HEAD
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     associationCompanyId: string
+=======
+    id: number
+    createdAt: number
+    updatedAt: number
+    associationCompanyId: number
+>>>>>>> parent of 429dd0d (Set default ids to string (planning to use uuid))
     active: boolean
-    startDate?: Date
-    endDate?: Date
+    startDate?: number
+    endDate?: number
 }

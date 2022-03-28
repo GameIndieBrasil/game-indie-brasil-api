@@ -5,9 +5,15 @@ import { Media } from "./media";
 import { Prize } from "./prize";
 
 export interface Game {
+<<<<<<< HEAD
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
+=======
+    id: number
+    createdAt: number
+    updatedAt: number
+>>>>>>> parent of 429dd0d (Set default ids to string (planning to use uuid))
     name: string
     slug: string
     description: string
@@ -20,7 +26,7 @@ export interface Game {
 
 interface PlatformRelease {
     platform: Platform
-    releaseDate: Date
+    releaseDate: number
     releaseStatus: GameStatus
     url: string
 }

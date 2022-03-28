@@ -1,8 +1,16 @@
 export interface CompanyGame {
+<<<<<<< HEAD
     id: string
-    createdAt: Date
-    updatedAt: Date
+    createdAt: number
+    updatedAt: number
     companyId: string
     gameId: string
+=======
+    id: number
+    createdAt: number
+    updatedAt: number
+    companyId: number
+    gameId: number
+>>>>>>> parent of 429dd0d (Set default ids to string (planning to use uuid))
     involvement: string
 }
