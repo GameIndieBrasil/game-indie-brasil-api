@@ -1,6 +1,6 @@
 // TODO: Avaliar uso de API do IBGE ou importar os dados para cá
 export interface Address {
-    id: number
+    id: string
     createdAt: Date
     updatedAt: Date
     cep: string

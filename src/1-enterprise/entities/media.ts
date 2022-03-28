@@ -1,7 +1,7 @@
 import { MediaType } from "#enterprise/enums/mediaType";
 
 export interface Media {
-    id: number
+    id: string
     createdAt: Date
     updatedAt: Date
     location: string

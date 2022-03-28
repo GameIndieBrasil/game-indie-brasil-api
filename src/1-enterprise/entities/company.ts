@@ -4,7 +4,7 @@ import { Media } from "./media"
 import { Prize } from "./prize"
 
 export interface Company {
-    id: number
+    id: string
     createdAt: Date
     updatedAt: Date
     name: string
@@ -22,10 +22,10 @@ export interface Company {
 }
 
 export interface CompanyAssociation {
-    id: number
+    id: string
     createdAt: Date
     updatedAt: Date
-    associationCompanyId: number
+    associationCompanyId: string
     active: boolean
     startDate?: Date
     endDate?: Date

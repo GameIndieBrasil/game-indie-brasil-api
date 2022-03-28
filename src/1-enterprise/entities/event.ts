@@ -3,7 +3,7 @@ import { Address } from "./address";
 import { Media } from "./media";
 
 export interface Event {
-    id: number
+    id: string
     createdAt: Date
     updatedAt: Date
     companyOwnerId: number[]
@@ -23,11 +23,10 @@ export interface EventEdition {
     id: number
     createdAt: Date
     updatedAt: Date
-    eventId: number
     editionName: string
     startDate?: Date
     endDate?: Date
     eventType: EventType
-    companies: number[]
-    games: number[]
+    companies: string[]
+    games: string[]
 }

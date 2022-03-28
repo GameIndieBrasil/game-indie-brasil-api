@@ -1,8 +1,8 @@
 export interface CompanyGame {
-    id: number
+    id: string
     createdAt: Date
     updatedAt: Date
-    companyId: number
-    gameId: number
+    companyId: string
+    gameId: string
     involvement: string
 }
