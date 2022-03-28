@@ -1,9 +1,9 @@
 import { Token } from 'typedi/Token'
 import { Prize } from '#enterprise/entities/prize'
 
-export const IPrizeRepositoryToken = new Token<PrizeRepository>()
+export const IPrizeRepositoryToken = new Token<IPrizeRepository>()
 
-export interface PrizeRepository {
+export interface IPrizeRepository {
     getPrizeById(prizeId: string): Promise<Prize>
     getPrizeByWinnerId(winnerId: string, winnerType: string): Promise<Prize[]>
     getPrizeByEventId(eventId: string): Promise<Prize[]>
