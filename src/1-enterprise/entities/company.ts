@@ -18,7 +18,7 @@ export interface Company {
     foundDate?: number
     defunctDate?: number
     prizes?: Prize[]
-    companyType: CompanyType
+    companyType: CompanyType[]
 }
 
 export interface CompanyAssociation {
