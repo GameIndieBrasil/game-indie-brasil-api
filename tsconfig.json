@@ -24,19 +24,19 @@
     "removeComments": true,
     "allowSyntheticDefaultImports": true,
     "noEmit": false,
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
       "#enterprise/*": [
-        "src/1-enterprise/*"
+        "1-enterprise/*"
       ],
       "#application/*": [
-        "src/2-application/*"
+        "2-application/*"
       ],
       "#interface/*": [
-        "src/3-interface/*"
+        "3-interface/*"
       ],
       "#framework/*": [
-        "src/4-framework/*"
+        "4-framework/*"
       ],
       "#test/*": [
         "test/*"
@@ -44,5 +44,8 @@
     },
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
-  }
+  },
+  "include": [
+    "./src"
+  ]
 }
