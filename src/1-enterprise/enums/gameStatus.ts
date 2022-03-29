@@ -1,8 +1,7 @@
 export enum GameStatus {
-    concept,
-    inDevelopment,
-    earlyAccess,
-    released,
-    cancelled,
-    unknown = 9
+    concept = 'Conceito',
+    inDevelopment = 'Em desenvolvimento',
+    earlyAccess = 'Acesso antecipado',
+    released = 'Lançado',
+    cancelled = 'Cancelado'
 }

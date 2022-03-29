@@ -1,6 +1,7 @@
 export enum EventType {
-    gamejam,
-    festival,
-    contest,
-    unknown = 9
+    gamejam = 'Gamejam',
+    festival = 'Festival',
+    symposium = 'Simpósio',
+    ceremony = 'Cerimônia',
+    fair = 'Feira'
 }

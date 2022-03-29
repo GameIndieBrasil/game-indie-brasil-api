@@ -1,8 +1,7 @@
 export enum CompanyType {
-    individual,
-    developmentNotRegistered,
-    developmentRegistered,
-    association,
-    events,
-    unknown = 9
+    individual = 'Desenvolvedor individual',
+    registeredStudio = 'Estúdio formalizado',
+    unregisteredStudio = 'Estúdio não formalizado',
+    association = 'Associação',
+    publisher = 'Publicadora'
 }

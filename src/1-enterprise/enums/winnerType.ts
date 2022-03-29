@@ -1,5 +1,4 @@
 export enum WinnerType {
-    company,
-    game,
-    unknown = 9
+    company = 'Empresa',
+    game = 'Jogo'
 }
