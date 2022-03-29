@@ -18,13 +18,13 @@
     "eslint-config-strongloop": "^2.1.0",
     "nodemon": "^2.0.13",
     "rimraf": "^3.0.2",
-    "ts-node": "^10.2.1",
+    "tsc-alias": "^1.6.5",
     "typescript": "^4.4.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon",
-    "build": "rimraf ./app && tsc",
+    "build": "rimraf ./app && tsc && tsc-alias",
     "start": "npm run build && node app/index.js",
     "lint": "eslint . --ext .ts",
     "typecheck": "tsc --noEmit"
