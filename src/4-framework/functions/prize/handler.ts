@@ -1,5 +1,5 @@
 import express from 'express'
-import { getPrize } from '#framework/functions/getPrizeById'
+import { getPrize } from '#framework/functions/prize/getPrizeById'
 
 const prefix = 'prize'
 const prizeRouter = express.Router();

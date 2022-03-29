@@ -1,5 +1,5 @@
 import express from "express";
-import { prizeRouter } from '#framework/functions/handler';
+import { prizeRouter } from '#framework/functions/prize/handler';
 import { apiVersion } from "#enterprise/consts/config";
 
 const app = express();
