@@ -5,7 +5,7 @@ export class InputGetById extends ValidateData {
 
     @IsNotEmpty()
     @IsNumberString()
-    id!: number
+    id!: string
 
     constructor(obj: Partial<InputGetById>) {
         super()
