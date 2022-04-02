@@ -1,5 +1,5 @@
 import { serverName } from "#enterprise/consts/config";
-import { GetPrizeByIdOperation } from "#interface/operations/getPrizeById";
+import { GetPrizeByIdOperation } from "#interface/operations/prize/getPrizeById";
 import { Request, RequestHandler, Response } from "express";
 import '#framework/infrastructure/initializeDI'
 
